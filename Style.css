@@ -1,0 +1,114 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+background-color: rgba(255, 217, 0, 0.555);
+
+}
+
+
+.page {
+max-width: 1050px;
+text-align: center;
+display: flex;
+justify-content: space-between;
+}
+
+/* Type de jeu _______________________*/
+.zone_jeu{
+    width: 920px;
+}
+
+.type_de_jeu{
+    font-family: 'Londrina Solid', cursive;
+    font-size: 2em;
+    margin: 0.2em;
+    margin-bottom: 0em;
+    border: 2px black solid;
+    background-color: rgba(255, 217, 0, 0.678);
+}
+
+/* Zone de selection _______________________*/
+
+.selection_shifumi{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.8em;
+}
+
+.selection_shifumi button{
+    background-color: transparent;
+    height: 250px;
+    width: 250px;
+    margin: 0.8em;
+    border: 2px black solid ;
+    cursor: pointer;
+}
+
+
+.selection_shifumi img{
+    width: 100%;
+    max-height: 340px;
+}
+
+
+/* Zone de match _______________________*/
+.zone_match{
+    display: flex;
+    justify-content: space-around;
+    max-height: 300px;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 1.5em;
+}
+
+.joueur, .versus, .robot{
+    width: 30%;
+}
+.icone_joueur, .icone_robot{
+    width: 70%;
+}
+.shifumi_joueur, .shifumi_robot{
+    width: 20%;
+}
+
+
+.versus img{
+    width: 100%;
+}
+
+/* Resultats _______________________*/
+.resultat{
+    font-family: 'Londrina Solid', cursive;
+    font-size: 2em;
+    margin: 0em;
+}
+
+/* Suivi de jeu _______________________*/
+
+.suivi_jeu{
+    font-family: 'Londrina Solid', cursive;
+    font-size: 2em;
+    margin-left: 3em;
+}
+.suivi_jeu img{
+    width: 250px;
+    height: auto;
+}
+
+/* Rejouer _______________________*/
+
+#rejouer{
+    margin-top: 5em;
+}
+
+#rejouer button{
+    background-color: transparent;
+    width: 200px;
+    height: 100px;
+    border: 2px black solid ;
+    cursor: pointer;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 2em;
+}
