@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@900&family=Russo+One&display=swap" rel="stylesheet">    <title>Jeu du SHIFUMI</title>
+</head>
+<body>
+
+
+<div class="page">
+
+
+    <div class="zone_jeu">
+        <div class="type_de_jeu">
+            <p>3 manches gagnantes</p>
+        </div>
+
+
+
+        <div class="selection_shifumi">
+            <button class="pierre"><img src="Images/pierre.png" alt="Icône de sélection : Pierre"></button>
+            <button class="feuille"><img src="Images/feuille.png" alt="Icône de sélection : Feuille"></button>
+            <button class="ciseaux"><img src="Images/ciseaux.png" alt="Icône de sélection : Ciseaux"></button>
+        </div>
+
+
+        <div class="zone_match">
+            <div class="joueur">
+                <img class="icone_joueur" src="Images/icon.png" alt="Icône profil joueur">
+                <img class="shifumi_joueur" src="Images/interrogation.png" alt="Shifumi choisir par joueur">
+                <p>Nom du joueur</p>
+            </div>
+
+            <div class="versus">
+                <img src="Images/versus.png" alt="logo versus">
+            </div>
+
+            <div class="robot">
+                <img class="shifumi_robot" src="Images/interrogation.png" alt="Shifumi choisir par robot">
+                <img class="icone_robot" src="Images/icon_robot.png" alt="Icône profil robot">
+                <p>Robot</p>
+            </div>
+        </div>
+
+        <div class="resultat">
+            <div class="annonce_winner">
+            </div>
+
+            <div class="score">
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="suivi_jeu">
+        <img id="medal" src="Images/medal.png" alt="Icône gagnant">
+        <div class="grand_gagnant"></div>
+        <div id="player_victory"><img src="https://media.giphy.com/media/K3RxMSrERT8iI/source.gif" alt="Robot victory !"></div>
+        <div id="robot_victory"><img src="https://media.giphy.com/media/mIZ9rPeMKefm0/source.gif" alt="Robot victory !"></div>
+        
+
+    </div>
+
+    <div id="rejouer">
+        <button>REJOUER</button>
+    </div>  
+
+</div>
+
+<script type="text/javascript" src="javascript.js"></script>
+
+</body>
+</html>
